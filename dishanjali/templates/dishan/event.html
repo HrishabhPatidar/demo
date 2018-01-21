@@ -1,0 +1,101 @@
+{% extends 'dishan/headerfooter.html' %}
+
+
+{% block content %}
+{% load staticfiles %}
+<style>
+
+    .background-image1
+    {
+        background-image: url("{% static 'dishan/images/pic4.webp' %}");
+        background-size:cover;
+        background-attachment: fixed;
+        height:100%;
+    }
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+</style>
+<div class="">
+    <div class="back">
+        <div class="background-image background-image1"></div>
+        <div class="content" id="content1">
+
+            <div class="mid">
+
+                <div class="Tagline">
+
+                    We'd Love To Listen From You!
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<section class="intro">
+    <div class="container">
+        <h1>EVENTS &darr;</h1>
+    </div>
+</section>
+
+<section class="timeline">
+    <ul>
+        <li>
+            <div>
+                <time>1/11/2017</time> event 1 </div>
+        </li>
+        <li>
+            <div>
+                <time>2/11/2017</time> event 2   </div>
+        </li>
+        <li>
+            <div>
+                <time>3/11/2017</time>event 3   </div>
+        </li>
+        <li>
+            <div>
+                <time>4/11/2017</time>event 4      </div>
+        </li>
+        <li>
+            <div>
+                <time>5/11/2017</time>   event 5   </div>
+        </li>
+        <li>
+            <div>
+                <time>6/11/2017</time>event 6   </div>
+        </li>
+        <li>
+            <div>
+                <time>7/11/2017</time>event 7  </div>
+        </li>
+        <li>
+            <div>
+                <time>8/11/2017</time> event 8  </div>
+        </li>
+        <li>
+            <div>
+                <time>9/11/2017</time> event 9  </div>
+        </li>
+        <li>
+            <div>
+                <time>10/11/2017</time> event 10  </div>
+        </li>
+        <li>
+            <div>
+                <time>11/11/2017</time> event 11 </div>
+        </li>
+        <li>
+            <div>
+                <time>12/11/2017</time> event 12   </div>
+        </li>
+    </ul>
+</section>
+
+{% endblock %}

@@ -1,0 +1,400 @@
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .tagline
+    {
+        font-size: 55px;
+    }
+    .get_involve_buttonhover
+    {
+        top:80%;
+    }
+}
+/*
+@media only screen and (max-width: 968px) and (min-width:703px)
+{
+
+    #contant
+    {
+
+    }
+    .message_contant
+    {
+        font-size: 15px;
+    }
+
+    .paddng
+    {
+        padding-left: 6%;
+    }
+    .mission, .volunteer, .donate, .work
+    {
+        width: 300px;
+
+    }
+    .mission_content, .volunteer_content, .donate_content, .work_content
+    {
+        font-size: 12px;
+    }
+
+}
+*/
+
+@media only screen and (max-width:900px) and (min-width: 768px)
+{
+    .nav
+    {
+        width: 550px;
+        font-size: 15px;
+        font-weight: 900;
+
+    }
+    .nav li
+    {
+        margin: -6px;
+
+    }
+
+}
+
+@media only screen and (max-width:769px)
+{
+
+    .media-carousel .carousel-control.left{
+
+        margin-top: 290px;
+
+    }
+    .media-carousel .carousel-control.right{
+
+        margin-top: 290px;
+
+    }
+    .tagline
+    {
+        font-size: 50px;
+    }
+    .get_involve_button
+    {
+        font-size: 12px;
+        padding: 0px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .president
+    {
+        font-size:20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .message_contant
+    {
+        font-size: 12px;
+        margin: 10px 0px;
+        width: 90%;
+
+
+    }
+    #none
+    {
+        display: none;
+    }
+    .contact_no , .emails , .follow
+    {
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+    .footer
+    {
+        height: 350px;
+    }
+    .Donatecontent
+    {
+
+    }
+    .image
+    {
+        width: 100%;
+        float: none;
+
+        height: 50%;
+    }
+    .page-content
+    {
+        float: none;
+        width: 100%;
+        height: 30%;
+    }
+
+}
+@media only screen and (max-width:365px)
+{
+    .logo_resize
+    {
+        width: 100px;
+        height: 80px;
+        position: fixed;
+    }
+    .logo
+    {
+        width: 100px;
+        height: 80px;
+    }
+    #none
+    {
+        display: none;
+    }
+    .tagline
+    {
+        font-size: 40px;
+    }
+    .message_contant
+    {
+        font-size: 12px;
+    }
+    .president
+    {
+        font-size: 15px;
+    }
+
+
+
+}
+/*
+@media only screen and (max-width:1300px )
+{
+    .content3
+    {
+
+    }
+    .mission, .volunteer, .donate, .work
+    {
+        width: 280px;
+        font-size: 10px;
+    }
+    .mission_content, .volunteer_content, .donate_content, .work_content
+    {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1180px) {
+    .padding
+    {
+        padding-left: 8%;
+    }
+    .content3 {
+        height: 1050px;
+    }
+    #donate
+    {
+        margin-top: 55px;
+    }
+    .mission,.work {
+        margin: 50px 0px 0px 0px;
+
+    }
+    .mission, .volunteer, .donate, .work
+    {
+        width: 400px;
+        margin-left: 20px;
+
+    }
+    .content_button
+    {
+        position: relative;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 570px)
+{
+    .content3
+    {
+        height: 1800px;
+    }
+}
+@media only screen and (max-width: 703px)
+{
+    .content3
+    {
+        height: 1800px;
+    }
+    .mission, .volunteer, .donate, .work
+    {
+        width: 90%;
+        margin: 30px 0px 0px 30px;
+    }
+    .volunteer
+    {
+        margin-top: 100px;
+    }
+    .padding
+    {
+        padding: 10px;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .padding
+    {
+        padding-left: 0px;
+    }
+    .content3
+    {
+        height:1400px ;
+    }
+    .mission_content
+    {
+        position: relative;
+        transform: translate(-20%,0);
+    }
+    .mission_content, .volunteer_content, .donate_content, .work_content
+    {
+        font-size: 10px;
+    }
+    .mission, .volunteer, .donate, .work
+    {
+        margin: 10px 0px 0px 30px;
+        height: 350px;
+    }
+    .work
+    {
+        height: 300px;
+    }
+
+
+}
+@media only screen and (max-width: 913px) and (min-width:703px)
+{
+    .content3
+    {
+        height: 1800px;
+    }
+}
+*/
+@media only screen and (max-width:1250px)
+{
+    #fullpage section
+    {
+        height: 100%;
+    }
+    .volunteer, .donate, .work
+    {
+
+        clear: both;
+        width: 400px;
+        display: block;
+
+    }
+    .content3
+    {
+        height: 300%;
+        width: 400px;
+        margin: 0 auto;
+
+    }
+    .volunteer_content, .donate_content, .work_content
+    {
+        font-size:18px;
+    }
+
+    .content_button
+    {
+        top:105%;
+    }
+
+
+}
+@media only screen and (max-width:1000px)
+{
+    .content3
+    {
+
+    }
+    .index-mission-content{
+        height: 80%;
+    }
+    .index-mission-contents
+    {
+        width: 40%;
+        font-size: 18px;
+        margin-left: 7%;
+
+    }
+
+}
+@media only screen and (max-width:410px)
+{
+    .volunteer, .donate, .work
+    {
+        width: 100%;
+    }
+    .content3
+    {
+        width: 300%;
+
+    }
+}
+@media only screen and (max-width:360px)
+{
+    .content_button
+    {
+        top: 80%;
+    }
+    .content3
+    {
+        height: 300%;
+    }
+    .volunteer, .donate, .work
+    {
+        height: 300px;
+
+    }
+    .index-mission-contents
+    {
+        font-size: 18px;
+
+    }
+    .mission_content, .volunteer_content, .donate_content, .work_content
+    {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:624px)
+{
+    .index-mission-content{
+        height: 90%;
+    }
+    .index-mission-contents
+    {
+        float: none;
+        padding-top: 40px;
+        width: 80%;
+        margin:0 auto;
+        height: 50%;
+    }
+    .index-mission-chart
+    {
+        float: none;
+        height: 150px;
+        width: 150px;
+        margin: 20px auto;
+        display: block;
+
+
+    }
+    .index-mission-chart-child
+    {
+        height: 40px;
+        width: 40px;
+    }
+}

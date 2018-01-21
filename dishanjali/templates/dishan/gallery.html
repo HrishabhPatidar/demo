@@ -1,0 +1,40 @@
+{% extends 'dishan/headerfooter.html' %}
+{% block content %}
+{% load staticfiles %}
+
+
+<div class="gallery">
+
+    <div class="photos">
+
+        {% for photo in photos %}
+
+
+        <div class="col-md-4 col-sm-6 ">
+            <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                <div id="photo" class="photo">
+
+                    <div class=" photo-top-left-block"></div>
+                    <div class="  photo-bottom-right-block"></div>
+                    <img id="photos" src = "{{ photo.gallery_images.url }}" alt="photo">
+
+
+                </div>
+            </div>
+        </div>
+
+
+        {% endfor %}
+
+    </div>
+    <div id="bigphoto">
+
+        <div id="close">
+            <div id="line"></div>
+        </div>
+
+        <div id="next_gallery"></div>
+        <div id="pre_gallery"></div>
+    </div>
+</div>
+{% endblock%}

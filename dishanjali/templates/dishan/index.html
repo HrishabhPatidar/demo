@@ -1,0 +1,666 @@
+{% extends 'dishan/headerfooter.html' %}
+
+
+{% block content %}
+{% load staticfiles %}
+
+    <style>
+
+
+
+    .background-image1
+    {
+        height: 100%;
+        background-image: url("{% static 'dishan/images/rte.jpg' %}");
+        -webkit-background-size: 100px;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    .background-image2
+    {
+
+
+        /*  background-image: url("{% static 'dishan/images/logo1.png' %}");
+             background-color: black; */
+        height: 100%;
+        opacity: .4;
+        background-color: rgba(202,200,245,1);
+        background-size: 100% 120%;
+
+
+
+
+
+    }
+    .background-image3
+    {
+
+
+
+        /* background-image: url("{% static 'dishan/images/pic3.webp'%}");
+         background-size: cover;
+         background-attachment: fixed;*/
+        background-color:rgba(200,232,230,1) ;
+
+        height:auto;
+
+    }
+
+
+
+
+    .team_member .parent_circle .child_round_circle_img1
+    {
+        background: url('{% static "dishan/images/vijaysir.webp" %}');
+        background-size: 100%;
+    }
+    .team_member .parent_circle .child_round_circle_img2
+    {
+        background:  url("{% static 'dishan/images/css.webp' %}") ;
+
+        background-size:100%;
+
+    }
+    .team_member .parent_circle .child_round_circle_img3
+    {
+        background: url('{% static "dishan/images/akp.webp" %}');
+        background-size: 100%;
+    }
+    .team_member .parent_circle .child_round_circle_img4
+    {
+        background: url('{% static "dishan/images/yk.webp" %}');
+        background-size: 100%;
+    }
+    .team_member .parent_circle .child_round_circle_img5
+    {
+        background: url('{% static "dishan/images/vs.webp"%}');
+        background-size: 100%;
+    }
+    .team_member .parent_circle .child_round_circle_img6
+    {
+        background: url('{% static "dishan/images/pt.webp"%}');
+        background-size: 100%;
+    }
+    .team_member .parent_circle .child_round_circle_img7
+    {
+        background: url('{% static "dishan/images/lj.webp"%}');
+        background-size: 100%;
+    }
+    .team_member .parent_circle .child_round_circle_img8
+    {
+        background: url('{% static "dishan/images/rm.webp" %}');
+        background-size: 100%;
+    }
+    .team_member .parent_circle .child_round_circle_img9
+    {
+        background: url('{% static "dishan/images/mhd.webp"%}');
+        background-size: 100%;
+    }
+
+
+    .content_button
+    {
+        background-color: green;
+        border: 2px solid green;
+
+    }
+    .content_button a
+    {
+        color:white;
+    }
+    .content_button:hover
+    {
+        background-color: #1b6d85;
+        border: 2px solid white;
+
+    }
+    .content_button a:hover
+    {
+
+        text-decoration: none;
+    }
+
+</style>
+
+<div id="fullpage">
+    <section class="height">
+        <div class="back">
+            <div class="background-image background-image1"></div>
+            <div class="content" id="content1">
+
+                <div class="mid">
+
+                    <!--  <div class="Tagline">
+
+
+                          EDUCATE THE CHILDREN
+
+
+                          <div>
+                              <button type="button" class="get_involve_button get_involve_buttonhover" > <a href="/dishan/involve.html">GET INVOLVE</a></button>
+
+                          </div>
+                      </div>
+                      -->
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section
+            >
+        <div class="index-mission">
+            <div class="index-mission-header">
+                <strong>OUR MISSION</strong>
+            </div>
+            <div class="index-mission-content">
+                <div class="index-mission-contents">
+                    Quality education </br>
+                    Counselling facility</br>
+                    Motivate and encouraging youth</br>
+                    100% Literacy rate</br>
+                    helping the nation in its various social drives</br>
+                    Basic education to illiterate women of slums and villages
+
+                </div>
+                <div class="index-mission-chart">
+                    <div id="staticstic" class="index-mission-chart-child">
+                        <p class="mission-data" >16%</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <section id="">
+        <div class="back clear">
+
+            <div class=" background-image background-image3"></div>
+
+            <div  id='content3' class="content3">
+                <div class="padding" >
+
+                    <div class="donate" id="donate">
+                        <div class='front1'>
+
+                            <img src="{% static 'dishan/images/donate.png' %}">
+                            <div class="donate_content ">
+                                Sometimes it takes only one act of kindness and caring to change a person's life", and this thing inspires us to do such works. We believe continuous support at various levels will lead to a positive transformation in the children we work with. We seek your financial support, clothes, books and stationary materials. We also organize Raddi donation camp.
+                                <div class="button_content5">
+                                    <button type="button"  class=" content_button  " > <a>DONATE</a></button>
+                                </div>
+                            </div></div>
+
+                        <div class='back1'>
+                            <!--  <img src="{% static 'dishan/images/donate.png' %}">
+                              <div class="donate_content ">
+                                  Sometimes it takes only one act of kindness and caring to change a person's life", and this thing inspires us to do such works. We believe continuous support at various levels will lead to a positive transformation in the children we work with. We seek your financial support, clothes, books and stationary materials. We also organize Raddi donation camp. .</br>
+                               </div>                                -->
+                            <button type="button"  class=" content_button  " > <a>DONATE</a></button>
+
+
+                            <div>
+                                <img style="height: 100%;width:100%;" src="{% static 'dishan/images/pic2.webp' %}">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="volunteer" id='volunteer'>
+                        <div class='front1'>
+                            <img src="{% static 'dishan/images/volunteer.png' %}">
+                            <div class=" volunteer_content">
+                                DISHANJALI is one of Madhya Pradesh's youth volunteering organization. Hundreds of volunteers from several cities across Madhya Pradesh contribute towards education, environment, and other causes.We volunteer in many summits and camps so that the members will get more chance to interact with other people and can learn from them. This helps in enhancing the knowledge of members.
+                            </div>
+                            <button type="button"  class=" content_button " > <a> VOLUNTEERS</a></button>
+
+                        </div>
+                        <div class="back1">
+                            <!--   <img src="{% static 'dishan/images/volunteer.png' %}">
+                               <div class=" volunteer_content">
+                                   DISHANJALI is one of Madhya Pradesh's youth volunteering organization. Hundreds of volunteers from several cities across Madhya Pradesh contribute towards education, environment, and other causes.We volunteer in many summits and camps so that the members will get more chance to interact with other people and can learn from them. This helps in enhancing the knowledge of members.
+                               </div>
+                               -->
+                            <div >
+                                <button type="button"  class="extra_content_button content_button " > <a> VOLUNTEERS</a></button>
+                            </div>
+
+                            <div>
+                                <img style="height: 100%;width:100%;" src="{% static 'dishan/images/pic2.webp' %}">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--   <div class="mission" id='mission'>
+
+                           <div class="front1">
+                               <img src="{% static 'dishan/images/mission.png' %}">
+                               <div class="mission_content">
+                                   Quality education </br>
+                                   Counselling facility</br>
+                                   Motivate and encouraging youth</br>
+                                   100% Literacy rate</br>
+                                   helping the nation in its various social drives</br>
+                                   Basic education to illiterate women of slums and villages
+                               </div>
+                               <div class="button_content">
+                                   <button type="button"  class=" content_button "> <a>MISSION</a></button>
+                               </div>
+                           </div>
+
+
+                           <div class="back1">
+                               <img src="{% static 'dishan/images/mission.png' %}">
+                               <div class="mission_content">
+                                   Quality education </br>
+                                   Counselling facility</br>
+                                   Motivate and encouraging youth</br>
+                                   100% Literacy rate</br>
+                                   helping the nation in its various social drives</br>
+                                   Basic education to illiterate women of slums and villages
+
+
+                                   <div class="button_content">
+                                       <button type="button"  class=" content_button "> <a>MISSION</a></button>
+                                   </div>
+                               </div></div>
+                       </div>
+                       -->
+
+                    <div class="work" id="work">
+
+                        <div class="front1"><img style='height: 100px;width: 100px;border-radius: 50%'src="{% static 'dishan/images/our-work.png' %}">
+                            <div class="work_content">
+
+                                <div class=" work_inner_content">
+                                    The team is a blend of experienced veterans and enthusiastic fresher’s, all put in sync with the Foundation’s core values which also drive individual thought and action. DISHANJALI endeavours to create an ambience where people have the freedom to deliver quality and take pride in their work. Events and activities are designed and organized to make each one feel, as much a part of the DISHANJALI family.
+
+                                </div>
+
+
+                                <button type="button"  class="content_button " > <a>OUR CENTERS</a></button>
+                            </div>
+                        </div>
+                        <div class="back1">
+                            <!--  <img style='height: 100px;width: 100px;border-radius: 50%'src="{% static 'dishan/images/our-work.png' %}">
+                          <div class="work_content">
+
+                                  <div class=" work_inner_content">
+                                        The team is a blend of experienced veterans and enthusiastic fresher’s, all put in sync with the Foundation’s core values which also drive individual thought and action. DISHANJALI endeavours to create an ambience where people have the freedom to deliver quality and take pride in their work. Events and activities are designed and organized to make each one feel, as much a part of the DISHANJALI family.
+
+                                    </div>
+    -->
+
+                            <div>
+                                <img style="height: 100%;width:100%;" src="{% static 'dishan/images/pic2.webp' %}">
+                            </div>
+                            <div id="">
+                                <button type="button"   class=" extra_content_button content_button  " > <a>OUR CENTERS</a></button>
+                            </div>
+
+
+                        </div>
+
+
+                        <!--   <div class="div2">
+                               <div class="donate" id="donate">
+                                   <div class='front1'>
+
+                                       <img src="{% static 'dishan/images/donate.png' %}">
+                                       <div class="donate_content ">
+                                           "Sometimes it takes only one act of kindness and caring to change a person's life", and this thing inspires us to do such works. We believe continuous support at various levels will lead to a positive transformation in the children we work with. We seek your financial support, clothes, books and stationary materials. We also organize Raddi donation camp, in which the old newspapers, copies we get is sold to the raddiwalas and then that money is used for bringing new stationary materials.
+                                           <div class="button_content5">
+                                               <button type="button"  class=" content_button  " > <a>DONATE</a></button>
+                                           </div>
+                                       </div>
+                                   </div>
+
+                                   <div class='back1'>
+                                       <img src="{% static 'dishan/images/donate.png' %}">
+                                       <div class="donate_content ">
+                                           "Sometimes it takes only one act of kindness and caring to change a person's life", and this thing inspires us to do such works. We believe continuous support at various levels will lead to a positive transformation in the children we work with. We seek your financial support, clothes, books and stationary materials. We also organize Raddi donation camp, in which the old newspapers, copies we get is sold to the raddiwalas and then that money is used for bringing new stationary materials.</br>
+                                           <button type="button"  class=" content_button  " > <a>DONATE</a></button>
+
+                                       </div>
+                                   </div>
+
+
+                               </div>
+                           </div> <div class="div1">
+                           this is one
+                       </div> <div class="div1">
+                           this is one
+                       </div> <div class="div1">
+                           this is one
+                       </div>
+                       -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!--
+    <section id="md-content">
+        <div class="md-contents">
+            <div class="md-inner-content">
+                <div>
+                    <img style="height: 70%;width:70%; margin: 0 10%;" src="{% static 'dishan/images/pic2.webp' %}">
+
+                    <div id="">
+                        <button type="button"   class=" md-content-button  " > <a>DONATE</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="md-inner-content">
+                <div>
+                    <img style="height: 70%;width:70%;" src="{% static 'dishan/images/pic2.webp' %}">
+
+                    <div id="">
+                        <button type="button"   class="md-content-button " > <a>VOLUNTEER</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="md-inner-content">
+                <div>
+                    <img style="height: 70%;width:70%;" src="{% static 'dishan/images/pic2.webp' %}">
+
+                    <div id="">
+                        <button type="button"   class=" md-content-button " > <a>OUR CENTERS</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---
+
+
+
+
+
+
+
+
+
+
+    <div class="back">
+        <div class="background-image background-image-mission"></div>
+        <div class="content">
+            <div class="">
+
+            </div>
+
+            <div class=" mission-con " style="">   <div style="">MISSION</div>
+                Quality education </br>
+                Counselling facility</br>
+                Motivate and encouraging youth</br>
+                100% Literacy rate</br>
+                helping the nation in its various social drives</br>
+                Basic education to illiterate women of slums and villages
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bac">
+        <div class="backgrond-image backgrond-image-work"></div>
+        <div class="content-w">
+            <div class="work-con">
+                <div class="work-con-title" >OUR WORK</div>
+                <div style="clear: both"></div>
+                <div class="work-con-index">
+                    <div class="work-con-index-imae">
+                        <img class="work-con-index-image" src="{% static 'dishan/images/pic4.webp'%}">
+                    </div>
+                    <div class="work-con-index-content">
+                        The team is a blend of experienced veterans and enthusiastic fresher’s, all put in sync with the Foundation’s core values which also drive individual thought and action. DISHANJALI endeavours to create an ambience where people have the freedom to deliver quality and take pride in their work. Events and activities are designed and organized to make each one feel, as much a part of the DISHANJALI family.
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back">
+        <div class="background-image background-image-volunteer"></div>
+        <div class="content">
+
+            <div class=" volunteer-con " style="">
+
+            </div>
+        </div>
+
+    </div>
+    <div class="back">
+        <div class="background-image background-image-donate"></div>
+        <div class="content">
+
+            <div class=" donate-con" style="">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    -->
+    <section>
+        <div class="back ">
+            <div  id="content2">
+                <div class="background-image background-image2"></div>
+
+                <div class="message">
+                    <center>
+
+                        <div class=" president ">
+                            PRESIDENT'S MESSAGE
+                        </div>
+
+                        <div class="message_contant">
+
+                            <P> डॉ ए  पी जे अब्दुल कलाम जी का सपना था कि देश में शिक्षा का स्तर इतना बढ़ जाए कि संपूर्ण विश्व हमे सलाम करे और हम विश्व गुरु बने। एक ऐसा भारत बने जो कृषि, विज्ञान और उद्योग के क्षेत्र में पूर्णतः आत्मनिर्भर हो।
+                                उन्होने इस्स सपने को पूरा करने मे अपने पूरे जीवन की आहूति दे दी । वे हमारे समक्ष भारत 2020 जैसा लक्ष्य रख गए और अब यही वह समय है जब हम घड़ी के हर कांटे का सदुपयोग करे और उनके स्वप्न को एक नया मुक़ाम दे। हमारे देश का युवा वर्ग न जाने किस राह पर जा रहा है और ऐसे समय मे अगर हमने अहम ठोस कदम उठाकर कार्य नहीं किया तो फिर ये अनमोल समय कभी वापस नहीं आएगा। इसी राह मे दिशांजली भी अपना सहयोग देने मे कोई कमी नही कर रही है। मै दिशांजली के सभी सदस्यो को तहे दिल से धन्यवाद करना चाहूँगा कि वह अपनी ऊर्जा को देश सेवा मे लगा रहे हैऔर अपना समय बच्चो के उज्ज्वल भविष्य बनाने मे लगा रहे हैं। ये बहुत गर्व की बात है कि यहा का एचआर सदस्य बिना किसी स्वार्थ भाव के अपना योगदान दे रहे है। दिशांजली अभी तक के हर तरह के सामाजिक कार्यो मे अग्रणी रहा है और आगे भी ऐसे हे अग्रणी रहेगा।
+                            </P>
+                            दिशांजली -------> एक प्रयास, एक अलख
+                            बदलते भारत कि ओर<br>
+
+
+                            विजय कुमार पाटीदार
+
+
+                        </div>
+
+
+                    </center>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+    <section class=" height team_member ">
+        <div class="team_member_contain">
+            <center><h1  style=" display:inline;">CORE TEAM MEMBERS</h1></center>
+            <div class="container">
+                <div class='row'>
+                    <div class='col-md-12'>
+                        <div class="carousel slide media-carousel" id="media">
+                            <div class="carousel-inner">
+                                <div class="item  active">
+                                    <div class="row">
+                                        <div class="col-md-4 padtop30">
+                                            <center><div class="parent_circle">
+                                                <div class="parent_circle_contain">
+                                                    <p>Er. Vijay Kumar Patidar </p>
+                                                    <p>
+
+
+
+
+                                                        President & Founder</p>
+
+                                                </div>
+                                                <div class=" child_round_circle child_round_circle_img1">
+
+                                                </div>
+                                            </div>
+                                            </center>
+                                        </div>
+                                        <div class="col-md-4 padtop30">
+                                            <center><div class="parent_circle">
+                                                <div class="parent_circle_contain">
+                                                    <p>Er. Chandrabhan Singh Sisodia</p>
+                                                    <p>Vice President</p>
+
+                                                </div>
+                                                <div class="child_round_circle child_round_circle_img2  ">
+
+                                                </div>
+                                            </div>
+                                            </center>
+                                        </div>
+                                        <div class="col-md-4 padtop30">
+                                            <center> <div class="parent_circle">
+                                                <div class="parent_circle_contain">
+                                                    <p>Er. Ajay Kumar Patidar</p>
+                                                    <p>General Secretary</p>
+
+                                                </div>
+                                                <div class=" child_round_circle child_round_circle_img3 ">
+
+                                                </div>
+                                            </div>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-4 padtop30">
+                                            <center><div class="parent_circle">
+                                                <div class="parent_circle_contain">
+                                                    <p>Yash Kulshreshtha
+                                                    </p>
+                                                    <p>Joint Secretary</p>
+
+                                                </div>
+                                                <div class=" child_round_circle child_round_circle_img4 ">
+
+                                                </div>
+                                            </div>
+                                            </center>
+                                        </div>
+                                        <div class="col-md-4 padtop30">
+                                            <center><div class="parent_circle">
+                                                <div class="parent_circle_contain">
+                                                    <p>Mr. Vikas Saxena</p>
+                                                    <p>Executive Member</p>
+
+                                                </div>
+                                                <div class=" child_round_circle child_round_circle_img5">
+
+                                                </div>
+                                            </div>
+                                            </center>
+                                        </div>
+                                        <div class="col-md-4 padtop30">
+                                            <center><div class="parent_circle">
+                                                <div class="parent_circle_contain">
+                                                    <p>Miss. Priya Tiwari</p>
+                                                    <p>HR Manager</p>
+
+                                                </div>
+                                                <div class=" child_round_circle child_round_circle_img6">
+
+                                                </div>
+                                            </div>
+                                            </center>
+                                        </div>  </div></div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-md-4 padtop30">
+                                            <center><div class="parent_circle">
+                                                <div class="parent_circle_contain">
+                                                    <p>Mr. Lokesh Jain</p>
+                                                    <p>Executive Member</p>
+
+                                                </div>
+                                                <div class=" child_round_circle child_round_circle_img7">
+
+                                                </div>
+                                            </div>
+                                            </center>
+                                        </div>
+                                        <div class="col-md-4 padtop30">
+                                            <center><div class="parent_circle">
+                                                <div class="parent_circle_contain">
+                                                    <p>Mr. Rupan Modak</p>
+                                                    <p>Treasurer</p>
+
+                                                </div>
+                                                <div class=" child_round_circle child_round_circle_img8">
+
+                                                </div>
+                                            </div>
+                                            </center>
+                                        </div>
+                                        <div class="col-md-4 padtop30">
+                                            <center><div class="parent_circle">
+                                                <div class="parent_circle_contain">
+                                                    <p>Mhd. Ashfaq</p>
+
+                                                </div>
+                                                <div class=" child_round_circle child_round_circle_img9">
+
+                                                </div>
+                                            </div>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
+                            <a data-slide="next" href="#media" class="right carousel-control">›</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--
+
+        <div id="carousel">
+            <center style="font-size: 30px;font-family: 'Bauhaus 93';padding-top: 65px;">Gallery</center>
+            <a href="#" id="prev"><span class="gallery-left glyphicon glyphicon-chevron-left"></span></a>
+            {% for photo in photos %}
+            <img style='height: 400px;width: 400px; margin-top:50px;background-size: cover; 'src = "{{ photo.gallery_images.url }}" alt="hrishabh">
+            {% endfor %}
+            <a href="#" id="next"><span class="gallery-right glyphicon glyphicon-chevron-right"></span></a>
+
+        </div>
+
+
+        -->
+
+        {% endblock %}
+    </section>
+</div>
+

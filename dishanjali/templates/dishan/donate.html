@@ -1,0 +1,137 @@
+{% extends 'dishan/headerfooter.html'%}
+{% block content %}
+{% load staticfiles%}
+<style>
+
+
+    .background-image1
+    {
+        background-image: url("{% static 'dishan/images/pic4.webp' %}");
+        background-size:cover;
+        background-attachment: fixed;
+        height:100%;
+    }
+
+</style>
+<body style="position:relative;height:100%;" data-spy="scrol" data-target="#donate-page" data-offset="">
+<div class="back">
+    <div class="background-image background-image1"></div>
+    <div class="content" id="content1">
+
+        <div class="mid">
+
+            <div class="Tagline">
+
+                SUPPORT TO EDUCATE CHILDREN
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="Get_involve">
+
+
+    <div class="contaier">
+        <div class="rw">
+
+
+            <!--  <nav  id="donate-page" class="navbar navbar-default">
+
+                  <ul id='navigation2' class="fixed-nav-padding nav navbar-nav" data-spy="a\fix" data-offset-top="">
+                      <li><a href="#books">Donate Books</a></li>
+                      <li><a href="#stationary">Donate Starionary Material</a></li>
+                      <li><a href="#raddi">Donate Raddi and Kabad</a></li>
+                      <li><a href="#clothes">Donate Clothes </a></li>
+                      <li><a href="#fund">Donate Money as a Fund</a></li>
+                  </ul>
+
+
+              </nav>
+              -->
+        </div>
+        <div class="">
+            <div id="books" style="background-color:rgba(202,222,220,1);">
+                <h2 style="padding:2% ;font-weight: 900">Donate Books</h2>
+                <div class="Donatecontent">
+                    <div class="page-content">
+                        <!-- <p> A Treasure House of Knowledge. Books are wonderful gifts to mankind. Books are useful in many ways. They educate, entertain and serve as good companions. The kingdom of books is as vast as universe. There are books on literature, science, fiction, history, art, culture, civilization, architecture, fashion, technology, philosophy, etc. Some books are for serious reading, some are intended to enrich our knowledge and learning. Many books give us an insight into various aspect of life.</p>
+                         --> <p>Books play pivotal role in life of a student. It acts as a gateway for him to know and be par at the ever changing world. Many times students from the poor section of our society doesn't have access to the finest reading material</p>
+                    </div >
+                    <div >
+                        <img class="image" src="{% static 'dishan/images/pic4.webp' %}">
+                    </div>
+                </div>
+            </div>
+            <div id="stationary" style="background-color: rgba(180,215,220,1);">
+                <h2 style="padding:2% ;font-weight: 900">Donate Starionary Material</h2>
+                <div class="Donatecontent">
+
+                    <div class="page-content" style="float: left">
+                        <p>
+                            Stationary materials like pencils, pen, notebook, etc are the essential and basic needs of the students.  Many slum students don't able to buy this so by donating you can full fill thier requirements</p>
+                    </div>
+                    <div>
+                        <img class="image" style="float: right" src="{% static 'dishan/images/pic4.webp' %}">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="raddi" style="background-color: rgba(200,215,220,1);">
+                <h2 style="padding:2% ;font-weight: 900">Donate Raddi and Kabad</h2>
+                <div class="Donatecontent">
+
+                    <div class="page-content">
+                        <p>Raddi / Kabadi means the waste plastics, newspaper, E-waste or any other junk materials of your house can be acceptable. And money you got can be donated to our NGO.</P>
+                    </div>
+                    <div>
+                        <img class="image" src="{% static 'dishan/images/pic4.webp' %}">
+                    </div>
+
+                </div>
+                <div style="padding-top:2% ">
+                    <button type="button" id="donote-button"  class="get_involve_button get_involve_buttonhover" > <a>DONATE KABADI</a></button>
+                </div>
+
+            </div>
+
+            <div id="clothes" style="background-color: rgba(198,235,230,1) ;">
+                <h2 style="padding:2% ;font-weight: 900">Donate Clothes</h2>
+                <div class="Donatecontent">
+                    <div class="page-content" style="float: left">
+                        <P>Your waste clothes(any type) are collected, so that we can distribute them to the needy slum & poor people and underprivileged children.</P>
+                    </div>
+                    <img class="image" src="{% static 'dishan/images/pic4.webp' %}">
+                </div>
+            </div>
+            <div id="fund" style="background-color:rgba(212,242,240,1);padding-bottom: 3%">
+                <h2 style="padding:2% ;font-weight: 900">Donate Money as a Fund</h2>
+                <P>You can direct transfer money in our account.<br>
+                    A/C Name: Dishanjali Education and Welfare Society</P>
+                <ADDRESS>
+                    <strong>A/C Number : 915010024011688<br>
+                        IFSC code: UTIB0001933<br>
+                        Address : Kolar Road</strong></ADDRESS>
+                OR
+                <br><br>
+
+                <p>@Bhopal : Vijay Kumar Patidar 9977555385<br>
+                    : Chandrabhan Sisodia 7898666067<br>
+                    @Indore : Yash Soni 8109046346<br>
+                    : Yash Kulshrestha 7869909760</p>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</div>
+<div style="clear: both"></div>
+
+{% endblock %}
+</body>

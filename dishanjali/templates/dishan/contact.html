@@ -1,0 +1,63 @@
+{% extends 'dishan/headerfooter.html' %}
+{% load crispy_forms_tags %}
+{% crispy forms forms.helper %}
+
+{% block content %}
+{% load staticfiles %}
+
+
+<style>
+
+
+    .background-image1
+    {
+        background-image: url("{% static 'dishan/images/pic4.webp' %}");
+        background-size:cover;
+        background-attachment: fixed;
+        height:100%;
+    }
+
+
+
+</style>
+<div class="">
+    <div class="back">
+        <div class="background-image background-image1"></div>
+        <div class="content" id="content1">
+
+            <div class="mid">
+
+                <div class="Tagline">
+
+                    We'd Love To Listen From You!
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="contact-page">
+<div style="margin-bottom: 50px">
+    <h1>Contact Us</h1>
+</div>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                {% crispy form %}
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-success" style="width: 100px;margin: 5px 30px 10px 0">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+{% endblock %}

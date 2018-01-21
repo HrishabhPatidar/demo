@@ -1,0 +1,124 @@
+<head>
+	{% load staticfiles  %}
+	<meta charset='utf-8'>
+	<title>NBSM</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" >
+	<script  src='{% static "dishan/js/fix.js" %}'></script>
+	<script src="{% static 'dishan/js/jquery.js' %}"></script>
+	<script type="text/css" rel="stylesheet" media="screen" src="{% static 'dishan/bootstap/fonts/glyphicons-halflings-regular.ttf' %}"></script>
+	<script src="{% static 'dishan/bootstrap/js/bootstrap.min.js' %}"></script>
+	<script type="text/javascript"  src= "{% static 'dishan/js/jquery.fullpage.js' %}" ></script>
+	<link type ="text/css" href= '{% static "dishan/bootstrap/css/bootstrap.min.css" %}'rel="stylesheet"/>
+
+	<link type="text/css" rel="stylesheet" href= "{% static 'dishan/css/style.css' %}" />
+	<link type="text/css" rel="stylesheet" href= "{% static 'dishan/css/mobe.css' %}" />
+
+	<style>
+
+	</style>
+	<script>
+
+
+	</script>
+</head>
+
+
+
+
+
+
+
+
+
+<!-- <div class="top darkred">
+<div class="top_left">
+ DISHANJALI EDUCATION AND WELFARE SOCIETY
+</div>
+<div class="top_right">
+<strong>Registration No.01/01/01/29344/15</strong>
+</div>
+</div> -->
+<nav id="top" class=" navbar navbar-inverse navbar-fixed-top navbar-custom">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<div id="navbar" class="navbar-toggle collapsed top-dot" data-target="#navbar-top" data-toggle="collapse">
+				<a class="dots navbar-brand" id="dot-top">
+					<div class="dot"></div>
+				</a>
+			</div>
+			<a href="/dishan/index.html/">
+				<img id="logo" class="logo" src='{% static "dishan/images/logo1.png" %}'>
+			</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navbar-top">
+			<ul class="nav navbar-nav navbar-right" id="menu">
+				<li ><a href="/dishan/index.html/">HOME</a></li>
+				<li><a href="/dishan/motivation.html/">OUR MOTIVATION </a></li>
+				<li><a href="/dishan/donate.html/">DONATE</a></li>
+				<li><a href="/dishan/about.html/">ABOUT</a></li>
+				<div id="hidden_main" >
+					<li><a href="/dishan/event.html/">EVENT</a></li>
+					<li ><a href="/dishan/gallery.html/">GALLERY</a></li>
+					<li><a href="/dishan/center.html/">CENTER</a></li>
+
+					<li><a href="/dishan/contact.html/">CONTACT</a></li>
+				</div>
+
+				<li id="none">
+					<a class="dots dropdown-toggle" id="dot" data-toggle="dropdown" data-target="#hidden_menu">
+						<div class="dot"></div>
+					</a>
+
+					<ul  class="dropdown-menu" >
+						<div class="hidden-menu">
+							<li><a href="/dishan/event.html/">EVENT</a></li>
+							<li ><a href="/dishan/gallery.html/">GALLERY</a></li>
+							<li><a href="/dishan/center.html/">CENTER</a></li>
+
+							<li><a href="/dishan/contact.html"/>CONTACT</a></li>
+
+						</div>
+
+					</ul>
+
+
+
+				</li>
+			</ul>
+
+		</div>
+	</div>
+
+</nav>
+
+{% block content %}
+
+{% endblock %}
+
+
+<div style="clear: left"></div>
+
+<div id="footer" class="footer"  >
+	<div class="contact_no">
+		Call Us:<br>
+		BHOPAL : 9977555385<br>
+		INDORE : 7869909760
+	</div>
+	<div class="emails">
+		Email us: <br>
+		dishanjali.edu@gmail.com<br>
+		Head Office :<br>
+		104 B East Kamla Nagar, Piplani, Bhopal (MP) 462022
+	</div>
+	<div class="follow">
+		<img src='{% static "dishan/images/linkdin.png" %}'>
+		<img src='{% static "dishan/images/insta.png" %}'>
+		<img src='{% static "dishan/images/youtube.png" %}'>
+		<img src=' {% static "dishan/images/twitter.png" %}'>
+		<img src='{% static "dishan/images/fb.png" %}'>
+	</div>
+
+</div>
+
+</body>
